@@ -1,3 +1,5 @@
+import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
+
 public class SinglyList<T>
 {
     public Node<T> head;
@@ -109,6 +111,19 @@ public class SinglyList<T>
 
     public SinglyList<T> subList(int i, int n)
     {
-
+        if(n<i)
+            throw new NumberFormatException();
+        Node<T> beginnode=this.head;
+        for(int j=0;j<i;j++)
+        {
+            beginnode=beginnode.next;
+        }
+        Node<T> finalnode=beginnode;
+        for(int j=0;j<n-i&&finalnode!=null;j++)
+        {
+            finalnode=finalnode.next;
+        }
+        this.head.next=beginnode;
+        finalnode.next=null;
     }
 }

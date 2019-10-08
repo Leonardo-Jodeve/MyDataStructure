@@ -23,5 +23,6 @@ public class SinglyList_main
         System.out.println(integerSinglyList3.equals(integerSinglyList4));
         System.out.println(integerSinglyList3.equals(integerSinglyList5));
         System.out.println(integerSinglyList3.equals(integerSinglyList6));
+
     }
 }
