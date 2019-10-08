@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SinglyList_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyList_main.java" afterDir="false" />
@@ -75,7 +74,7 @@
       <workItem from="1569555657135" duration="102000" />
       <workItem from="1570489498816" duration="7809000" />
       <workItem from="1570515165160" duration="3916000" />
-      <workItem from="1570519834570" duration="943000" />
+      <workItem from="1570519834570" duration="2288000" />
     </task>
     <servers />
   </component>

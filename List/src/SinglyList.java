@@ -124,6 +124,8 @@ public class SinglyList<T>
             finalnode=finalnode.next;
         }
         this.head.next=beginnode;
-        finalnode.next=null;
+        if(finalnode!=null)
+            finalnode.next=null;
+        return this;
     }
 }
