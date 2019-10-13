@@ -25,7 +25,9 @@ public class SinglyList_main
         System.out.println(integerSinglyList3.equals(integerSinglyList4));
         System.out.println(integerSinglyList3.equals(integerSinglyList5));
         System.out.println(integerSinglyList3.equals(integerSinglyList6));
-
+        System.out.println("");
         System.out.println(integerSinglyList7.subList(2,5));
+        System.out.println(integerSinglyList7.subList(2,200));
+        System.out.println(integerSinglyList7);
     }
 }

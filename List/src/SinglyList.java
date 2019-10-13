@@ -86,7 +86,9 @@ public class SinglyList<T>
 
     public boolean equals(Object obj)
     {
-        if(obj instanceof SinglyList)
+        if(this==obj)
+            return true;
+        if(obj instanceof SinglyList<?>)
         {
             SinglyList compare=(SinglyList)obj;
             Node<T> rare1=this.head.next,
@@ -113,7 +115,8 @@ public class SinglyList<T>
     {
         if(n<i)
             throw new NumberFormatException();
-        Node<T> beginnode=this.head;
+        SinglyList<T> copy=new SinglyList<>(this);
+        Node<T> beginnode=copy.head;
         for(int j=0;j<i;j++)
         {
             beginnode=beginnode.next;
@@ -123,9 +126,9 @@ public class SinglyList<T>
         {
             finalnode=finalnode.next;
         }
-        this.head.next=beginnode;
+        copy.head.next=beginnode;
         if(finalnode!=null)
             finalnode.next=null;
-        return this;
+        return copy;
     }
 }
