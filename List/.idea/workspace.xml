@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortedSinglyList_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedSinglyList_main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortedSinglyList_main">
+  <component name="RunManager" selected="Application.SinglyList_main">
     <configuration name="SinglyList_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SinglyList_main" />
       <module name="List" />
@@ -61,8 +62,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortedSinglyList_main" />
         <item itemvalue="Application.SinglyList_main" />
+        <item itemvalue="Application.SortedSinglyList_main" />
       </list>
     </recent_temporary>
   </component>
@@ -81,8 +82,17 @@
       <workItem from="1570489498816" duration="7809000" />
       <workItem from="1570515165160" duration="3916000" />
       <workItem from="1570519834570" duration="6413000" />
-      <workItem from="1570965211149" duration="2817000" />
+      <workItem from="1570965211149" duration="2904000" />
+      <workItem from="1571124836543" duration="457000" />
     </task>
+    <task id="LOCAL-00001" summary="Sorted SinglyList">
+      <created>1570968382335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570968382335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sorted SinglyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted SinglyList" />
   </component>
 </project>
