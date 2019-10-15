@@ -71,7 +71,7 @@ public class SinglyList<T>
     {
         if(list.head.next==null)
             throw new NullPointerException();
-        SinglyList<T> copy=new SinglyList<T>(list);          //深拷贝不影响
+        SinglyList<T> copy= new SinglyList<>(list);          //深拷贝不影响
 
         Node<T> p=this.head,
                 tail=copy.head.next;                         //遍历this，找到插入点
@@ -90,7 +90,7 @@ public class SinglyList<T>
             return true;
         if(obj instanceof SinglyList<?>)
         {
-            SinglyList compare=(SinglyList)obj;
+            SinglyList<T> compare=(SinglyList<T>)obj;
             Node<T> rare1=this.head.next,
                     rare2=compare.head.next;
             while (rare1!=null&&rare2!=null)
@@ -99,16 +99,16 @@ public class SinglyList<T>
                 {
                     rare1=rare1.next;
                     rare2=rare2.next;
-                    continue;
                 }
-                return false;
+                else
+                    return false;
             }
             if(rare1!=null||rare2!=null)
                 return false;
             return true;
         }
         else
-        return false;
+            return false;
     }
 
     public SinglyList<T> subList(int i, int n)
