@@ -44,7 +44,7 @@ public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyLis
         }
     }
 
-    public void addAll2(SortedSinglyList<T> list)
+    public void addAll2(SortedSinglyList<T> list)           //O(n)
     {
         if(this.sortmode!=list.sortmode)
             this.addAll(list);

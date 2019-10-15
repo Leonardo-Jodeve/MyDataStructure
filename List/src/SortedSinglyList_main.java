@@ -21,7 +21,7 @@ public class SortedSinglyList_main
         System.out.println("排序数列①"+sortedSinglyList2);
         System.out.println("排序数列②"+sortedSinglyList3);
         sortedSinglyList2.addAll2(sortedSinglyList3);
-        System.out.println("①②组合数列"+sortedSinglyList2.toString());
+        System.out.println("①②组合数列"+sortedSinglyList2);
 
 
     }
