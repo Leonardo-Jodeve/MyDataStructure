@@ -4,7 +4,7 @@ public class SortedSinglyList_main
     {
         Integer[] numbers1={1,2,3,4,5,6},
         numbers2={1,4,7,8,10},
-        numbers3={2,6,9,12};
+        numbers3={2,6,9,12,14,16,18};
 
         SinglyList singlyList=new SinglyList<>(numbers1);
         SortedSinglyList sortedSinglyList=new SortedSinglyList<>(singlyList,false);
