@@ -59,14 +59,14 @@ public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyLis
             {
                 while (thissucc != null && thissucc.data.compareTo(rare.data) != i)
                 {
-                    thisfront = thisfront.next;
-                    thissucc = thissucc.next;
+                    thisfront = thisfront.next;             //因为两个排序链表排序模式相同，所以指针只需要单向移动即可
+                    thissucc = thissucc.next;               //即使移动到 this 的尾部，也没有跳出 58 行的 while(rare!=null)
                 }
                 thisfront.next=rare;
                 thisfront=rare;
-                point=point.next;
-                rare.next=thissucc;
-                rare=point;
+                point=point.next;                           // point 指针作为 rare 的“备份”，因为 rare 最终会被接到 this 链表上
+                rare.next=thissucc;                         // point 会保证待连接的链表 list 不丢失
+                rare=point;                                 // rare 指针从“备份”中恢复
             }
         }
     }
