@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="Sorted SinglyList">
+      <change afterPath="$PROJECT_DIR$/../.idea/My Data Structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/Stack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortedSinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedSinglyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -27,11 +32,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,7 +94,11 @@
       <workItem from="1571146753555" duration="6588000" />
       <workItem from="1571153360242" duration="326000" />
       <workItem from="1571477220434" duration="1112000" />
-      <workItem from="1571729849673" duration="3248000" />
+      <workItem from="1571729849673" duration="4773000" />
+      <workItem from="1571809142812" duration="126000" />
+      <workItem from="1571809315399" duration="3000" />
+      <workItem from="1571809463340" duration="1400000" />
+      <workItem from="1571818990338" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="Sorted SinglyList">
       <created>1570968382335</created>

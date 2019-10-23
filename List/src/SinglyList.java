@@ -131,4 +131,20 @@ public class SinglyList<T>
             finalnode.next=null;
         return copy;
     }
+
+    public T remove(int i)
+    {
+        Node<T> front=this.head;
+        for(int j=0; j<i-1 && front.next!=null;j++)
+        {
+            front=front.next;
+        }
+        if(i>=0 && front.next!=null)
+        {
+            T old=front.next.data;
+            front.next=front.next.next;
+            return old;
+        }
+        return null;
+    }
 }
