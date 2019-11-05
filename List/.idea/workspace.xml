@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="Sorted SinglyList">
-      <change afterPath="$PROJECT_DIR$/../.idea/My Data Structure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/Stack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/List/SinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/List/SinglyList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,6 +28,7 @@
   <component name="ProjectId" id="1RNJ96ojmB3Nz1oo1ZNr5bn9C4s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortedSinglyList_main">
+  <component name="RunManager" selected="Application.test">
     <configuration name="SinglyList_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SinglyList_main" />
       <module name="List" />
@@ -67,8 +67,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Stack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.SortedSinglyList_main" />
         <item itemvalue="Application.SinglyList_main" />
       </list>
@@ -98,7 +106,17 @@
       <workItem from="1571809142812" duration="126000" />
       <workItem from="1571809315399" duration="3000" />
       <workItem from="1571809463340" duration="1400000" />
-      <workItem from="1571818990338" duration="1369000" />
+      <workItem from="1571818990338" duration="3073000" />
+      <workItem from="1572048416167" duration="874000" />
+      <workItem from="1572070667963" duration="1649000" />
+      <workItem from="1572141760063" duration="5322000" />
+      <workItem from="1572148311192" duration="592000" />
+      <workItem from="1572149468967" duration="1275000" />
+      <workItem from="1572161124664" duration="712000" />
+      <workItem from="1572337610946" duration="214000" />
+      <workItem from="1572337922275" duration="621000" />
+      <workItem from="1572938933219" duration="111000" />
+      <workItem from="1572939076980" duration="562000" />
     </task>
     <task id="LOCAL-00001" summary="Sorted SinglyList">
       <created>1570968382335</created>
