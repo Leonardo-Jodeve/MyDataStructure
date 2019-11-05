@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="Sorted SinglyList">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/List/SinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/List/SinglyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/src/BinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,7 @@
       <workItem from="1572337610946" duration="214000" />
       <workItem from="1572337922275" duration="621000" />
       <workItem from="1572938933219" duration="111000" />
-      <workItem from="1572939076980" duration="562000" />
+      <workItem from="1572939076980" duration="4391000" />
     </task>
     <task id="LOCAL-00001" summary="Sorted SinglyList">
       <created>1570968382335</created>
