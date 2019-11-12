@@ -23,6 +23,5 @@ public class SortedSinglyList_main
         sortedSinglyList2.addAll2(sortedSinglyList3);
         System.out.println("①②组合数列"+sortedSinglyList2);
 
-
     }
 }

@@ -1,6 +1,6 @@
 public final class LinkedStack<T> implements Stack<T>
 {
-    private SinglyList<T> list;
+    private SinglyList<T> list=new SinglyList<>();
     @Override
     public boolean isEmpty()
     {
@@ -8,9 +8,9 @@ public final class LinkedStack<T> implements Stack<T>
     }
 
     @Override
-    public void push(T x)
+    public void push(T data)
     {
-        this.list.insert(0,x);
+        this.list.insert(0,data);
     }
 
     @Override

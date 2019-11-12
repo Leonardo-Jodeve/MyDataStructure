@@ -1,3 +1,5 @@
+import com.sun.deploy.security.SelectableSecurityManager;
+
 public class BinaryTree<T>
 {
     public BinaryNode<T> root;
@@ -98,5 +100,87 @@ public class BinaryTree<T>
     {
         postorder(this.root);
         System.out.println();
+    }
+
+    public boolean equals(Object obj)
+    {
+        BinaryTree<T> tree;
+        BinaryNode<T> thisnode, treenode;
+        LinkedStack<BinaryNode<T>> thisstack=new LinkedStack<BinaryNode<T>>(),
+                treestack=new LinkedStack<BinaryNode<T>>();
+        boolean result=true;
+        if(this==obj)
+            return true;
+        if(obj instanceof BinaryTree)
+        {
+            tree=(BinaryTree<T>)obj;
+            thisnode=this.root;
+            treenode=tree.root;
+        }
+        else
+            return false;
+
+        try
+        {
+            while((thisnode!=null || !thisstack.isEmpty()) || (treenode!=null || !treestack.isEmpty()))
+            {
+                if(thisnode!=null || treenode!=null)
+                {
+                    result = equals(thisnode, treenode);
+                    if (!result)
+                        return result;
+                    thisstack.push(thisnode);
+                    treestack.push(treenode);
+                    thisnode = thisnode.left;
+                    treenode = treenode.left;
+                }
+                else
+                {
+                    thisnode=thisstack.pop();
+                    thisnode=thisnode.right;
+                    treenode=treestack.pop();
+                    treenode=treenode.right;
+                }
+            }
+        }catch (NullPointerException ex)
+        {
+            return false;
+        }
+
+        return result;
+    }
+
+    public boolean equals(BinaryNode<T> node1, BinaryNode<T> node2)
+    {
+        if(node1==node2)
+            return true;
+        if((node1==null && node2!=null)||(node1!=null && node2==null))
+            return false;
+        if(node1!=null && node2!=null)
+            return node1.data.equals(node2.data);
+        return true;
+    }
+
+    private int i=0;
+    public BinaryNode<T> create(T[] prelist)
+    {
+        BinaryNode<T> node=null;
+        if(i<prelist.length)
+        {
+            T data=prelist[i];
+            i++;
+            if(data!=null)
+            {
+                node=new BinaryNode<T>(data);
+                node.left=create(prelist);
+                node.right=create(prelist);
+            }
+        }
+        return node;
+    }
+
+    public BinaryTree(T[] prelist)
+    {
+        this.root=create(prelist);
     }
 }

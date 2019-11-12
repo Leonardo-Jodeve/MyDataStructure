@@ -62,7 +62,7 @@ public class SinglyList<T>
     public void insert(int i,T data)
     {
         Node<T> front=this.head;
-        for(int j=0;front!=null&&j<i;j++)
+        for(int j=0;front!=null && j<i;j++)
             front=front.next;
         front.next=new Node<T>(data,front.next);
     }
