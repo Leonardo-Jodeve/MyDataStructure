@@ -111,14 +111,14 @@ public class BinaryTree<T>
         boolean result=true;
         if(this==obj)
             return true;
-        if(obj instanceof BinaryTree)
+        if(!(obj instanceof BinaryTree))
+            return false;
+        else
         {
             tree=(BinaryTree<T>)obj;
             thisnode=this.root;
             treenode=tree.root;
         }
-        else
-            return false;
 
         try
         {
@@ -142,12 +142,17 @@ public class BinaryTree<T>
                     treenode=treenode.right;
                 }
             }
-        }catch (NullPointerException ex)
+        }
+        catch (NullPointerException ex)
         {
             return false;
         }
-
         return result;
+    }
+
+    public BinaryTree(BinaryTree<T> bittree)
+    {
+        this();
     }
 
     public boolean equals(BinaryNode<T> node1, BinaryNode<T> node2)
