@@ -1,5 +1,3 @@
-import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
-
 public class SinglyList<T>
 {
     public Node<T> head;
