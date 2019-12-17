@@ -36,9 +36,9 @@ public class Trees
                 prelist2[]={"A","\tB","\t\tE","\t\tF","\tC","\t\tG","\t\t\tK","\t\t\tL","\tD","\t\tH","\t\tI","\t\tJ"},
                 prelist3[]={"A","\tB","\t\tE","\t\tF","\tC","\t\tG","\t\t\tK","\t\t\tL","\tD","\t\tH","\t\tX","\t\tJ"};
 
-        Tree<String> tree1 = Trees.create(prelist1),
-                tree2 = Trees.create(prelist2),
-                tree3=Trees.create(prelist3);
+        Tree<String> tree1 = Trees.create(prelist1);
+//                tree2 = Trees.create(prelist2),
+//                tree3=Trees.create(prelist3);
 
         System.out.println(tree1.search("X"));
         System.out.println(tree1.search("D"));

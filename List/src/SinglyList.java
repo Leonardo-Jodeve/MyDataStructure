@@ -145,4 +145,11 @@ public class SinglyList<T>
         }
         return null;
     }
+
+    public void removenext(Node<T> front)
+    {
+        if(front.next!=null)
+            front.next=front.next.next;
+    }
+
 }

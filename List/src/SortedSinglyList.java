@@ -23,6 +23,8 @@ public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyLis
         return node;
     }
 
+
+
     public SortedSinglyList(SinglyList<T> list, boolean sortmode)
     {
         Node<T> rare=list.head.next;
@@ -68,6 +70,32 @@ public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyLis
                 rare.next=thissucc;                         // point 会保证待连接的链表 list 不丢失
                 rare=point;                                 // rare 指针从“备份”中恢复
             }
+        }
+    }
+
+    public SortedSinglyList(SinglyList<T> list)
+    {
+        this();
+        SinglyList<T> copy=new SinglyList<T>(list);
+        Node<T> front=copy.head, frontbackup=front, temp=front.next, insert=temp;
+        while(!copy.isEmpty())
+        {
+            while(temp!=null)
+            {
+                if(temp.data.compareTo(insert.data)>0)
+                {
+                    insert = temp;
+                    frontbackup=front;
+                }
+                front=temp;
+                temp=temp.next;
+            }
+            this.head.next=new Node<T>(insert.data,this.head.next);
+            copy.removenext(frontbackup);
+            front=copy.head;
+            frontbackup=front;
+            temp=front.next;
+            insert=temp;
         }
     }
 
