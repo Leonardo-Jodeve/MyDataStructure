@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c074f5a-9243-4d1d-a182-4753a18761f4" name="默认更改列表" comment="Sorted SinglyList">
-      <change afterPath="$PROJECT_DIR$/../ClassDesign/ClassDesign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassDesign/src/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassDesign/src/Sort_ex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassDesign/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassDesign/src/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassDesign/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassDesign/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassDesign/Sort_ex.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +172,9 @@
       <workItem from="1578541797723" duration="16741000" />
       <workItem from="1578562452670" duration="9167000" />
       <workItem from="1578583719774" duration="4205000" />
+      <workItem from="1578587938517" duration="115000" />
+      <workItem from="1578615309301" duration="3423000" />
+      <workItem from="1578641665233" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Sorted SinglyList">
       <created>1570968382335</created>
@@ -213,22 +215,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576542963863" />
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1578587927202">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1578702621224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578587927202" />
-    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1578587927202">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578702621224" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1578702621224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578587927202" />
-    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1578587927202">
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578702621224" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1578702621224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578587927202" />
-    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1578587927202">
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578702621224" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1578702621224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578587927202" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578702621224" />
     <state width="1493" height="229" key="GridCell.Tab.1.bottom" timestamp="1578587927202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,10 +255,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="259" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578295974921" />
-    <state x="475" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1578583724467">
+    <state x="475" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1578702497075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578583724467" />
+    <state x="475" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578702497075" />
     <state x="-17" y="82" width="1209" height="615" key="dock-window-1" timestamp="1578574147671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

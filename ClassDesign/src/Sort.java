@@ -60,11 +60,11 @@ public class Sort
                     advancedQuickSort(keys, begin, i);
                     advancedQuickSort(keys, j+1, end);
                 }
-                if(keys[i]==keys[j] && i==j-1)
-                {
-                    advancedQuickSort(keys, begin, i);
-                    advancedQuickSort(keys, j, end);
-                }
+//                if(keys[i]==keys[j] && i==j-1)
+//                {
+//                    advancedQuickSort(keys, begin, i);
+//                    advancedQuickSort(keys, j, end);
+//                }
             }
         }
     }
@@ -97,7 +97,7 @@ public class Sort
 
     public static void main(String[] args)
     {
-        int[] raw=generateRandomArray(getRandomInt(10,15),0,20);
+        int[] raw=generateRandomArray(getRandomInt(100,200),0,100);
         printArray(raw);
         advancedQuickSort(raw,false);
     }
