@@ -18,17 +18,22 @@ public class Sort
         return random_array;
     }
 
-    public static void printArray(int[] keys)
+    public static void printArray(int[] keys, int begin, int end)
     {
         String string="(";
-        for(int i=0; i<keys.length; i++)
+        for(int i=begin; i<end; i++)
         {
             string += keys[i];
-            if(i!=keys.length-1)
+            if(i!=end-1)
                 string += ",";
         }
         string += ")";
         System.out.println(string);
+    }
+
+    public static void printArray(int[] keys)
+    {
+        printArray(keys, 0, keys.length);
     }
 
     public static void advancedQuickSort(int[] keys, int begin, int end)
@@ -54,7 +59,7 @@ public class Sort
                     j--;
                 }
                 System.out.print("下标"+i+"～"+j+"， vot="+vot+"，  ");
-                printArray(keys);
+                printArray(keys, begin, end);
                 if(j==i)
                 {
                     advancedQuickSort(keys, begin, i);
@@ -97,7 +102,7 @@ public class Sort
 
     public static void main(String[] args)
     {
-        int[] raw=generateRandomArray(getRandomInt(100,200),0,100);
+        int[] raw=generateRandomArray(getRandomInt(10000,10001),0,100000);
         printArray(raw);
         advancedQuickSort(raw,false);
     }
