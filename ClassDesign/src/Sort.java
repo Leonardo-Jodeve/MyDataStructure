@@ -1,5 +1,9 @@
 import java.util.Random;
 
+/**
+ * @author Leonardo Jodeve
+ * @version 2.0
+ */
 public class Sort
 {
     public static int getRandomInt(int min,int max)
